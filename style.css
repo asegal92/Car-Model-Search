@@ -1,0 +1,78 @@
+* {
+  margin: 10px;
+  padding: 2px;
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+  border-radius: 10px;
+}  
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  color: black;
+  background-color: rgb(229, 228, 228);
+  padding: 10px;
+  height: 100vh;
+  width: 100vw;
+  border: 2px solid black;
+}
+
+.alert {
+  padding: 20px;
+  background-color: rgba(0,0,0,.2); 
+  color: black;
+  margin-bottom: 15px;
+  text-align:center;
+  display:block;
+}
+
+.closebtn {
+  margin-left: 15px;
+  padding: 0px 30px 10px 0px;
+  color: whitesmoke;
+  font-weight: bold;
+  top:5;
+  float: right;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.container {
+  text-align: center;
+  width: 40%;
+  padding: 10px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+#submit {
+  color:black;
+  cursor:pointer;
+ }
+
+.info {
+  text-align: center;
+  width: 40%;
+  padding: 10px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.car{ 
+  margin:auto;
+  height: 87px;
+  width: 840px;
+  background-image: url("https://res.cloudinary.com/practicaldev/image/fetch/s--sXHzvgJt--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/8abtvyc1r7uowv2vc1xt.png");
+  animation: play 0.9s steps(4) infinite;
+}
+@keyframes play {
+  from {
+      background-position: -200px 0px;
+  }
+  to {
+      background-position: -840px 0px;
+  }
+}

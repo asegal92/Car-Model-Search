@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
+    <title>Vehicle Info</title>
+</head>
+<body>
+    <div class="alert">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+        Welcome to the Car Model Search! Just enter your vehicle's model and see what you can learn about it! Have fun!
+    </div>
+<div class="container">
+    <h1>Car Model Search</h1>
+    <form id="getVehicle">
+        <input type="text" placeholder="enter your model"/>
+        <input type="submit" value="Get Vehicle Info" id="submit"/>
+    </form>
+</div>
+<div class="car"></div>
+
+  <div class="info">
+    <h2>Vehicle Info</h2>
+    <div>
+        Make: 
+        <span id="make"></span>
+    </div>
+    <div>
+        Premiered in: 
+        <span id="year"></span>
+    </div>
+    <div>
+        Class:
+        <span id="class"></span>
+    </div>
+    <div>
+        Cylinders:
+        <span id="cylinders"></span>
+    </div>
+    <div>
+        MPG:
+        <span id="combination_mpg"></span>
+    </div>
+    <div>
+        Drive:
+        <span id="drive"></span>
+    </div>
+  </div>
+
+</body>
+</html>
